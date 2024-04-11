@@ -1,0 +1,8 @@
+.greeting-wrapper {
+  text-align: center;
+  border: 1px solid darkslateblue;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f1f5ff;
+  color: darkslateblue;
+}

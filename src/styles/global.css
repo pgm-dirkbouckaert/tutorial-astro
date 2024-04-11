@@ -96,3 +96,28 @@ h2 {
     display: none;
   }
 }
+
+/* Greeting */
+.greeting__wrapper {
+  text-align: center;
+  border: 1px solid darkslateblue;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f1f5ff;
+  color: darkslateblue;
+}
+
+.greeting__button {
+  padding: 0.5rem;
+  background-color: darkslateblue;
+  color: white;
+  border: 1px solid darkslateblue;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: var(--transition_fast);
+}
+
+.greeting__button:hover {
+  opacity: 0.9;
+}
