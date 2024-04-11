@@ -10,6 +10,21 @@ html {
   font-family: sans-serif;
 }
 
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a,
+.dark a {
+  color: #fff;
+}
+
+.dark h1,
+.dark h2 {
+  color: hsl(248, 39%, 70%);
+}
+
 body {
   margin: 0 auto;
   width: 100%;
